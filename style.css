@@ -1,0 +1,93 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    /* PRIMARY COLORS */
+    --grey-blue: hsl(237, 18%, 59%);
+    --soft-red: hsl(345, 95%, 68%);
+
+    /* NEUTRAL */
+    --white: hsl(0, 0%, 100%);
+    --dark-desaturated-blue: hsl(236, 21%, 26%);
+    --very-dark-blue: hsl(235, 16%, 14%);
+    --mostly-black-blue: hsl(234, 17%, 12%);
+}
+
+body {
+    font-size: 14px;
+    background-color: var(--very-dark-blue);
+    background-image: url(/images/bg-stars.svg);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: url(/images/pattern-hills.svg);
+    height: 170px;
+}
+
+
+.socials {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 30px;
+}
+
+h2  {
+    text-align: center;
+    margin: 100px 0 100px 0;
+    color: var(--white);
+}
+
+.count {
+    background-color: var(--dark-desaturated-blue);
+    height: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--soft-red);
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+
+.clock {
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.timer {
+    text-align: center;
+    color: var(--grey-blue);
+    font-size: 1.2em;
+    font-weight: 700;
+    width: 10%;
+}
+
+@media screen and (max-width: 500px) {
+    .timer {
+        width: 20%;
+    }
+}
+
+
+
+
+
+/* .social-icons:hover {
+    color: var(--soft-red);
+} */
+
+
