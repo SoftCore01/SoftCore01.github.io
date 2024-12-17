@@ -8,10 +8,13 @@
   <title>Frontend Mentor | Launch countdown timer</title>
 </head>
 <body>
+  <audio id="music">
+    <source src="happy-birthday-254480.mp3" type="audio/mp3">
+  </audio>
+  <canvas id="confetti"></canvas>
+  <h2 id="h2-text">COUNT DOWN TILL MY QUEEN'S BIRTHDAY</h2>
 
-  <h2>COUNT DOWN TILL MY QUEEN'S BIRTHDAY</h2>
-
-  <div class="clock">
+  <main class="clock">
     <div class="timer">
       <div class="count"><h1 class="day"></h1></div>
       <p>DAYS</p>
@@ -28,7 +31,7 @@
       <div class="count"><h1 class="seconds"></h1></div>
       <p>SECONDS</p>
     </div>
-  </div>
+  </main>
 
   <footer>
     <div class="socials">
@@ -46,6 +49,7 @@
       <img src="/images/pattern-hills.svg" alt="hill-img">
     </div> -->
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
