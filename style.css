@@ -118,6 +118,7 @@ button {
 
     p {
         font-size: 1rem;
+        line-height: 1.5rem;
     }
     main {
         padding: 0 10px;
