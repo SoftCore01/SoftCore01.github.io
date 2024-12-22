@@ -1,4 +1,4 @@
-let countDownDate = new Date("Dec 22, 2024 10:00:00").getTime();
+let countDownDate = new Date("Dec 23, 2024 00:00:00").getTime();
 let h2Element = document.getElementById("h2-text");
 let clockElement = document.querySelector(".clock");
 let timerElements = document.querySelectorAll(".timer");
